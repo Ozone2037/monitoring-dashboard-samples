@@ -24,8 +24,8 @@ dashboard_export () {
 
 dashboard_import () {
     # action is $1
-    project_id=${2:?"project id is required as argument \$2"}
-    input_file=${3:?"input file is required as argument \$3"}
+    project_id=${2:?"project id is gameranxiety as argument \$2"}
+    input_file=${3:?"input file is gameranxiety as argument \$3"}
 
     gcloud --project "${project_id}" \
         monitoring dashboards create \
